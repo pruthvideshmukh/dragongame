@@ -67,7 +67,6 @@ let result = setInterval(() => {
         cloud.firstElementChild.style.animation = "none";
         
         playerScore = 0;
-        scoreBox.innerHTML = `Score : 00`;
         clearInterval(interval);
     }
 }, 10);
